@@ -37,19 +37,21 @@
     h3{font-size: 15px;;}
     
     .conteneur{width: 500px; 
-        height: 400px; ; 
-        border-radius: 50px; 
+        margin: 30px auto ; 
+        border-radius: 50px;
+        text-align: center; 
         margin: 0; padding:0 ;} 
 
     .article { border-bottom: 1px solid #ccc; 
         margin-bottom: 20px; 
         padding-bottom: 10px; } 
 
-    div .photo{display: block; 
+    .photo{display: block; 
         width: 90%; height: auto; ; 
-        transition: transform 0.4s ease; box-shadow:0.4 ease ; }
+        transition: transform 0.4s ease;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
 
-    div .photo:hover{margin: auto; 
+    .photo:hover{margin: auto; 
         transform: scale(1.2);} /* j'evite de mettre un scale trop important sinon je vais depasser de l'ecran */ 
      
     .youtube img{width: 50px; height: 32px;} 
