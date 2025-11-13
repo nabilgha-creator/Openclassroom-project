@@ -1,15 +1,16 @@
   body {background-image:url("images/5630939.jpg"); /*j'ai pensé qu'une couleur random manque d'originalité ( l'image est libre de droit )*/ 
     background-size: cover; 
     font-family: Montserra, sans-serif; 
-    margin: 0; padding: 0; } 
+     } 
     
     h1{font-family: Momo Trust Display, sans-serif; /*police récuperée sur google font*/ } 
+    h1:hover{text-shadow: 2px 2px 5px greenyellow;} /*je prefere placer les hover sous les variables correspondantes ça facilite la recherche */ 
+    
     header { background: linear-gradient(90deg,rgb(2, 142, 142),rgb(128, 1, 128)); 
         padding: 20px; 
+        border-radius: 20px;
         text-align: center; 
         color:white ; } 
-    
-    h1:hover{text-shadow: 2px 2px 5px gray;} /*je prefere placer les hover sous les variables correspondantes ça facilite la recherche */ 
     
     nav a { color: white; 
         text-decoration: none; 
@@ -22,7 +23,7 @@
     li{font-family: Montserra, sans-serif; 
         font-size: 20px; 
         color: white;} 
-    p{color: white; margin-top: 0;} 
+    p{color: white; } 
     
     /*classes : */ 
     .article h2 { display:inline-block; 
