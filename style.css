@@ -23,9 +23,11 @@
     li{font-family: Montserra, sans-serif; 
         font-size: 20px; 
         color: white;} 
+    h3{font-size: 15px;;}
     p{color: white; } 
     
     /*classes : */ 
+   
     .article h2 { display:inline-block; 
         font-family :Momo Trust Display, sans-serif ; 
         border: 2px solid white; 
@@ -35,13 +37,12 @@
 
     h2:hover{box-shadow: 2px 2px 5px darkcyan;} 
 
-    h3{font-size: 15px;;}
+   
     
-    .conteneur{width: 500px; 
-        margin: 30px auto ; 
-        border-radius: 50px;
+    .conteneur{width: 500px;  
         text-align: center; 
-        margin: 0; padding:0 ;} 
+        margin: 0; padding:0
+        } 
 
     .article { border-bottom: 1px solid #ccc; 
         margin-bottom: 20px; 
